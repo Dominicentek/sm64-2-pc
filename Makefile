@@ -21,6 +21,9 @@ DEFINES :=
 
 # Manual target defines
 
+DEBUG = 1
+BETTERCAMERA = 0
+
 # Build for original N64
 TARGET_N64 ?= 0
 # Build and optimize for Raspberry Pi(s)

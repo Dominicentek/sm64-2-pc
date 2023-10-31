@@ -616,6 +616,8 @@ extern const BehaviorScript bhvUnusedFakeStar[];
 extern const BehaviorScript bhv2DPhysics[];
 extern const BehaviorScript bhvLegacyScrollTexture[];
 
+extern const BehaviorScript bhvCutsceneActor[];
+
 #ifdef PORT_MOP_OBJS
 #include "src/extras/mop/include_behaviors.h"
 #endif

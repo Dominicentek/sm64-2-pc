@@ -32,6 +32,7 @@
 #include "level_table.h"
 #include "course_table.h"
 #include "rumble_init.h"
+#include "cutscene.h"
 
 #ifndef TARGET_N64
 #include "pc/pc_main.h"
@@ -1276,7 +1277,7 @@ s32 init_level(void) {
                     if (should_intro_be_skipped()) {
                         set_mario_action(gMarioState, ACT_IDLE, 0);
                     } else {
-                        set_mario_action(gMarioState, ACT_INTRO_CUTSCENE, 0);
+                        cutscene_start(cutscene_test);
                         fadeFromColor = TRUE;
                     }
                 }
